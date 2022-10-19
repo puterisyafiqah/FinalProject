@@ -33,6 +33,7 @@ ax.hist(df['bmi'])
 
 st.pyplot(fig)
 stroke = {0:'Not Stroke',1:'Stroke'}
+st.bar_chart(['smoking_status'])
 
 gender = st.sidebar.radio('Gender', ('Male', 'Female'))
 age = st.sidebar.number_input('Age (years)', value = 30, min_value = 0, max_value = 100)
