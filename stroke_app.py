@@ -27,7 +27,11 @@ st.subheader("Data Information")
 st.dataframe(df)
 st.subheader("Statistical Information")
 st.write(df.describe())
+st.write("samplechart")
+fig, ax = plt.subplots()
+ax.hist(df['bmi'])
 
+st.pyplot(fig)
 stroke = {0:'Not Stroke',1:'Stroke'}
 
 gender = st.sidebar.radio('Gender', ('Male', 'Female'))
