@@ -5,3 +5,4 @@ sklearn
 imblearn
 matplotlib
 seaborn 
+scikit-learn
