@@ -13,7 +13,7 @@ from sklearn.metrics import classification_report,confusion_matrix,accuracy_scor
 import warnings 
 warnings.filterwarnings("ignore")
 
-df = pd.read_csv("/content/healthcare-dataset-stroke-data.csv")
+df = pd.read_csv(r"healthcare-dataset-stroke-data.csv")
 
 print(df.head())
 
